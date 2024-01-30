@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Decodificador de Texto</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Imagens/Logo.svg" alt="Logo Alura">
+    </header>
+    <main>
+        <section class="secao1">
+            <div class="container__criptografar">
+                <textarea id="input1" cols="30" rows="10" placeholder="Digite seu texto" class="container__criptografar__input"></textarea>
+            </div>
+            <div class="alerta">
+                <img class="imagem-vazia" src="Imagens/alerta.svg" alt="icone alerta">
+                <p>&nbsp;Somente letras minúsculas e sem acento</p>
+            </div>
+            <div class="botoes">
+                <input type="button" class="botao-criptografar" value="Criptografar">
+                <input type="button" class="botao-descriptografar" value="Descriptografar">
+            </div>
+        </section>
+        <section class="secao2">
+            <div class="container__direito">
+                <div class="container-paragrafo"></div>
+                <img src="Imagens/Nada-Encontrado.svg" alt="Espaço vazio">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja <br> criptografar ou descriptografar</p>
+            </div>
+  
+            <div class="container-copiar">
+                <input type="button" class="botao__copiar" value="Copiar">
+            </div>
+            <div class="container__resultado">
+                <textarea class="texto__resultado" id="input2" cols="30" rows="10"></textarea>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="texto_footer">
+            &nbsp;  Desenvolvido por <strong>Darlan Rodrigues</strong> | © 2024 &nbsp;
+        </div>
+
+        <div class="contato">
+            <a class="link_footer" href="https://github.com/Darlan-Ro" target="_blank">
+                <img src="Imagens/github.png" alt="icone Github">
+                <strong>Github</strong>
+            </a>
+            <a class="link_footer" href="https://www.linkedin.com/in/darlan-robson-rodrigues-de-abreu-ba021a2ab/" target="_blank">
+                <img src="Imagens/linkedin.png" alt="icone linkedin">
+                <strong>LinkedIn</strong>
+            </a>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
